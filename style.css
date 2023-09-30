@@ -412,6 +412,7 @@ td {
 }
 td:hover {
   color: #f94a3d;
+  cursor: pointer;
 }
 th {
   padding-bottom: 40px;
@@ -422,20 +423,29 @@ th {
   margin-left: 100px;
   margin-right: -70px;
 }
-@media screen and (max-width:768px) {
-  .footer ,.testi-section,.special-items, .footer-logo,.hero-section,.about-us,nav{
+@media screen and (max-width: 768px) {
+  .footer,
+  .testi-section,
+  .special-items,
+  .footer-logo,
+  .hero-section,
+  .about-us,
+  nav {
     flex-direction: column;
     align-items: center;
   }
-  .footer > table,.footer-logo,.testi-col-1,.testi-col-2 {
+  .footer > table,
+  .footer-logo,
+  .testi-col-1,
+  .testi-col-2 {
     margin: 0px;
     padding: 0px;
     width: 100%;
   }
-  .my-card-outerline{
+  .my-card-outerline {
     margin-top: 20px;
   }
-  .special-navbar>a{
+  .special-navbar > a {
     padding: 10px 5px;
     font-size: 15px;
     text-align: center;
